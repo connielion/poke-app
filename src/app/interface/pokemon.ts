@@ -13,4 +13,12 @@ export interface Pokemon {
       }
     }
   ];
+  types: [
+    {
+    type: {
+      slot: number;
+      name: string;
+    }
+  }
+ ];
 }
